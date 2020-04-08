@@ -1,0 +1,28 @@
+/* pages/naviMap/naviMap.wxss */
+
+.place_info {
+position: relative;
+width: 90%;
+margin-left: 20rpx;
+margin-top: 10rpx;
+border-radius: 5rpx;
+background: white;
+padding: 10rpx;
+}
+.place_info_parking{
+font-size: 50rpx
+}
+.place_info_surplus{
+color: #999999
+}
+.place_info_order{
+margin-top: 10rpx;
+margin-bottom: 10rpx;
+margin-left: 20rpx;
+background-color: #ff5722;
+color: #FFFFFF;
+padding: 10rpx;
+width: 45%;
+border-radius: 5rpx;
+text-align: center;
+}

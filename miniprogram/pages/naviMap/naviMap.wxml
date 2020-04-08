@@ -1,0 +1,10 @@
+<map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" bindcallouttap="callouttap"
+  show-location style="width: 100%; height: 100vh;">
+  <cover-view class='place_info' wx:if="{{current_mark_id>=0}}">
+    <cover-view class='place_info_parking'>箱子MarkerID: {{current_mark_id}} {{current_mark_title}}</cover-view>
+    <cover-view class='place_info_surplus'>经纬度: {{current_marker_latitude}},{{current_marker_longtitude}}</cover-view>
+    <cover-view class='place_info_surplus'>回收次数:{{current_marker_recycle_time}} </cover-view>
+    <button class='place_info_order' size='mini' bindtap='gotoRecycle'>回收</button>
+    <button class='place_info_order' size='mini' bindtap='gotoSomeWhere'>导航</button>
+  </cover-view>
+</map>

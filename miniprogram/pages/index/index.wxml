@@ -1,0 +1,18 @@
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">晋城烟草塑封膜回收管理系统</view>
+    <view class="page__desc">晋城烟草卷烟塑封膜回收管理系统</view>
+    <image src='/images/box_image.jpg' style="width: 100%;"></image>
+  </view>
+  <view class="page__bd page__bd_spacing">
+    <navigator class="weui-btn" url="../retailers/retailers">
+      <button type="primary">商户人员</button>
+    </navigator>
+    <navigator class="weui-btn" url="../naviMap/naviMap">
+      <button type="warn">回收人员</button>
+    </navigator>
+    <navigator class="weui-btn" url="../adminPage/adminPage">
+      <button type="default">管理人员</button>
+    </navigator>
+  </view>
+</view>

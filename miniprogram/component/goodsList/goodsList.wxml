@@ -1,0 +1,29 @@
+<!--component/goodsList/goodsList.wxml-->
+<view class='list-group'>
+  <view class='list-left'>
+    <image src='/images/box_marker.png' class='img' mode="widthFix"></image>
+  </view>
+  <view class='list-right'>
+    <view class='title'>{{title}}</view>
+    <view class='desc'>{{boxID}}</view>
+    <view class='price-box'>
+      <text>纬度：</text>
+      <text class='latitude'>{{latitude}}</text>
+    </view>
+    <view>
+      <text>经度：</text>
+      <text class='latitude'>{{longitude}}</text>
+    </view>
+    <view class='illustrate'>
+      <view wx:if="{{status === 0}}">
+        <text>箱内塑封膜 未满</text>
+      </view>
+      <view wx:if="{{status === 1}}">
+        <text>箱内塑封膜 已满</text>
+      </view>
+      <view>
+        <button class='more' id="{{boxID}}" bindtap="changeBoxStatus" size='mini'>改状态</button>
+      </view>
+    </view>
+  </view>
+</view>

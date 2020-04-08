@@ -1,0 +1,12 @@
+<goodsList 
+id="goodsList" 
+wx:for="{{goodsArray}}" 
+wx:key="unique" 
+title="{{item.title}}" 
+desc="{{item.desc}}"
+boxID="{{item.boxID}}"
+latitude="{{item.latitude}}" 
+longitude="{{item.longitude}}"
+status="{{item.status}}"
+>
+</goodsList>

@@ -1,0 +1,32 @@
+<!--pages/retailers/retailers.wxml-->
+<view class="container">
+
+  <!-- 用户 openid -->
+  <view class="userinfo">
+    <button 
+      open-type="getUserInfo" 
+      bindgetuserinfo="onGetUserInfo"
+      class="userinfo-avatar"
+      style="background-image: url({{avatarUrl}})"
+    ></button>
+    <view>
+      <button class="userinfo-nickname" bindtap="onGetOpenid">系统关于</button>
+    </view>
+  </view>
+
+  <!-- 扫码绑定箱子 -->
+  <view class="uploader">
+    <navigator url="../configBox/configBox" open-type="navigate" class="uploader-text">
+      <text>扫码绑定箱子</text>
+    </navigator>
+  </view>
+
+  <!-- 管理箱子 -->
+  <view class="uploader">
+    <navigator url="../manageBox/manageBox" open-type="navigate" class="uploader-text">
+      <text>管理箱子</text>
+    </navigator>
+  </view>
+</view>
+
+

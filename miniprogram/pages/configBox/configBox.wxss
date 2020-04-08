@@ -1,0 +1,13 @@
+/* pages/configBox/configBox.wxss */
+
+@import "../../style/guide.wxss";
+
+.guide .counter {
+  margin-top: 50rpx;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+.title{
+  size: 50rpx
+}

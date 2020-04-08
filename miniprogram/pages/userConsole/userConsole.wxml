@@ -1,0 +1,23 @@
+<!--pages/userConsole/userConsole.wxml-->
+<view class="container">
+
+  <view class="list">
+    <view class="list-item" bindtap="testCgi">
+      <text class="request-text">微信账号和系统绑定成功！</text>
+    </view>
+    <view class="list-item" bindtap="testCgi">
+      <text class="request-text">onCfj5KBb61Cxrin0DXorsP1JMSA</text>
+    </view>
+  </view>
+
+  <view class="guide">
+    <text class="headline">晋城烟草塑封膜回收管理系统</text>
+    <text class="p">1、支持商户、回收、管理员三种角色用户登陆</text>
+    <text class="p">2、打通微信账户提起</text>
+    <text class="p">3、箱子地理位置绑定</text>
+    <text class="p">4、箱子存储状态变更</text>
+    <text class="p">5、塑封膜回收及统计</text>
+    <text class="p">6、塑封膜库存查看</text>
+  </view>
+
+</view>
